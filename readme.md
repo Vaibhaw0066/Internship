@@ -1,4 +1,3 @@
-
 ##Write a function to get the intersection point of two line segments (if they are intersecting).<br><br>
 
 ###One line segment from (x1,y1) to (x2,y2)
