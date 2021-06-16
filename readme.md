@@ -1,7 +1,7 @@
-##Write a function to get the intersection point of two line segments (if they are intersecting).<br><br>
+## Write a function to get the intersection point of two line segments (if they are intersecting).<br><br>
 
-###One line segment from (x1,y1) to (x2,y2)
-###Another line segment from (x3,y3) to (x4,y4)
+### One line segment from (x1,y1) to (x2,y2)
+### Another line segment from (x3,y3) to (x4,y4)
 ___
 The set of points on the first line segment is
 ```math
@@ -27,7 +27,7 @@ y1 + (y2−y1)u = y3 + (y4−y3)t
 
 <br>
 
-####solve for u by eliminating t
+#### Solve for u by eliminating t
 ```
 (x1−x3) + (x2−x1) u (x4−x3) = (y1−y3) + (y2−y1)u(y4−y3)
 ```
@@ -38,5 +38,5 @@ y1 + (y2−y1)u = y3 + (y4−y3)t
 <br>
 Finally,
 
-####x = -1 * ((x1 - x2) * (u1 * v2 - u2 * v1) - (u2 - u1) * (x2 * y1 - x1 * y2)) / ((v1 - v2) * (x1 - x2) - (u2 - u1) * (y2 - y1))
-####y = y = -1 * (u1 * v2 * y1 - u1 * v2 * y2 - u2 * v1 * y1 + u2 * v1 * y2 - v1 * x1 * y2 + v1 * x2 * y1 + v2 * x1 * y2 - v2 * x2 * y1) / (-1 * u1 * y1 + u1 * y2 + u2 * y1 - u2 * y2 + v1 * x1 - v1 * x2 - v2 * x1 + v2 * x2)
+#### x = -1 * ((x1 - x2) * (u1 * v2 - u2 * v1) - (u2 - u1) * (x2 * y1 - x1 * y2)) / ((v1 - v2) * (x1 - x2) - (u2 - u1) * (y2 - y1))
+#### y = y = -1 * (u1 * v2 * y1 - u1 * v2 * y2 - u2 * v1 * y1 + u2 * v1 * y2 - v1 * x1 * y2 + v1 * x2 * y1 + v2 * x1 * y2 - v2 * x2 * y1) / (-1 * u1 * y1 + u1 * y2 + u2 * y1 - u2 * y2 + v1 * x1 - v1 * x2 - v2 * x1 + v2 * x2)
